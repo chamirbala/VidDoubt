@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --main-color: #FFFFFF;
+    --color-dark: #e2e2e2;
+    --text-dark: #000000;
+}
+
+*{
+    font-family: Quicksand, sans-serif;
+}
+
+
+
+
+#sidebar-menu a{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border: 0px;
+}
+#sidebar-for-u a{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+#sidebar-solvers a{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+#sidebar-account a{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+
+.title{
+    background-color: rgb(248, 248, 248);
+}
+.list-group{
+    background-color: rgb(248, 248, 248);
+    height: 100%;
+}
+
