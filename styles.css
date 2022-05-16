@@ -18,15 +18,12 @@ body{
 
 .title{
     background-color: var(--color-dark);
-    
 }
 .ask-a-doubt-btn{
     width: 100% !important;
     text-align:start;
     background-color: rgb(233, 231, 231);
 }
-
-
 
 .list-group{
     width: 15rem;
@@ -45,27 +42,10 @@ body{
 
 
 
-#sidebar-menu a{
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    border: 0px;
-}
-#sidebar-for-u a{
+#sidebar-menu,#sidebar-for-u,#sidebar-solvers,#sidebar-account a{
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
 }
-#sidebar-solvers a{
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-}
-#sidebar-account a{
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-}
-
-
-
-
 
 
 #wrapper{
@@ -85,6 +65,10 @@ body{
 #page-content-wrapper{
     min-width: 100vw;
 }
+
+.title-heading{
+    display: none;
+}
 .dropdown-menu{
     left: -130%;
 }
@@ -100,7 +84,7 @@ body{
 
 
 
-@media(min-width : 768px){
+@media(min-width : 1024px){
     #sidebar-wrapper{
         margin-left: 0;
     }
@@ -115,10 +99,28 @@ body{
     }
 }
 
-@media(max-width : 768px){
+@media(max-width : 1024px){
 
     .form-inline{
         margin-left: 0;
+        width: 70%;
+    }
+
+    .navbar-toggler{
+        display: none !important;
+    }
+
+    .navbar-mobile{
+        justify-content: start;
+    }
+
+    .title-heading{
+        display: inline;
+        width: 100%;
+    }
+
+    .sidebar-heading{
+        display: none ;
     }
     
 }
